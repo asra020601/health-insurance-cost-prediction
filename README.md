@@ -1,13 +1,13 @@
 # health-insurance-cost-prediction 
 This project aims to develop a machine learning model that predicts the health insurance charges for an individual based on their personal characteristics such as age, gender, BMI, smoking habits, and region of residence.
 
-Data
+## Data
 The dataset used for this project is the Medical Cost Personal Datasets from Kaggle. It consists of 1338 records with 7 features: age, sex, bmi, children, smoker, region, and charges.
 
-Methodology
+## Methodology
 The following steps were taken to develop the health insurance prediction model:
 
-Exploratory data analysis
+## Exploratory data analysis
 Data preprocessing and feature engineering
 Feature selection
 Model selection and hyperparameter tuning
@@ -24,12 +24,12 @@ Several machine learning models were trained on the data, including linear regre
 
 The final model was chosen based on its performance on the test set and its interpretability.
 
-Results
+## Results
 The final model achieved an R-squared value of 0.85 on the test set, indicating a strong correlation between the features and the insurance charges.
 
 The feature importance analysis revealed that smoking habits and BMI were the two most important features in predicting the insurance charges.
 
-Usage
+## Usage
 To use the health insurance prediction model, follow these steps:
 
 Clone the repository.
